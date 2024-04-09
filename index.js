@@ -39,7 +39,7 @@ function zero() {
     screen.textContent += 0
 }
 
-function twozero() {
+function double() {
     screen.textContent += "00"
 }
 
@@ -68,6 +68,6 @@ function calculate() {
 function erase() {
     screen.textContent =  ""
 }
-function off() {
+function del() {
     screen.textContent  = screen.textContent.toString().slice(0, -1)
 }
