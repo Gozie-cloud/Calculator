@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prcatice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="screen">
+            <p id="screen"></p>
+        </div>
+        <div class="button">
+            <div class="rows">
+                <button class="buttons color" onclick="erase()">AC</button>
+                <button class="buttons color" onclick="off()">DEL</button>
+                <button class="buttons color" onclick="dot()">.</button>
+                <button class="buttons color" onclick="divide()">÷</button>
+            </div>
+            <div class="rows">
+                <button class="buttons" onclick="seven()">7</button>
+                <button class="buttons" onclick="eight()">8</button>
+                <button class="buttons" onclick="nine()">9</button>
+                <button class="buttons color" onclick="mul()">x</button>
+            </div>
+            <div class="rows">
+                <button class="buttons" onclick="four()">4</button>
+                <button class="buttons" onclick="five()">5</button>
+                <button class="buttons" onclick="six()">6</button>
+                <button class="buttons color" onclick="min()">-</button>
+            </div>
+            <div class="rows">
+                <button class="buttons" onclick="one()">1</button>
+                <button class="buttons" onclick="two()">2</button>
+                <button class="buttons" onclick="three()">3</button>
+                <button class="buttons color" onclick="plus()">+</button>
+            </div>
+            <div class="rows">
+                <button class="buttons" onclick="zero()">0</button>
+                <button class="buttons" onclick="twozero()">00</button>
+                <button class="buttons zero color" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
